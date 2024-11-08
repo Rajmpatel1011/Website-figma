@@ -7,7 +7,7 @@
 body {
   font-family: sans-serif;
   display: grid;
-  grid-template-columns: 225px 1fr 338px;
+  grid-template-columns: 225px 1fr 415px;
 }
 
 /* ********************* */
@@ -28,14 +28,14 @@ body {
 }
 
 .book-icon {
-  height: 40px;
-  width: 40px;
+  height: 44px;
+  width: 44px;
   padding: 2px;
 }
 
 .logo-text {
   font-family: sans-serif;
-  font-size: 22px;
+  font-size: 25px;
   color: #141522;
 }
 
@@ -93,6 +93,10 @@ body {
   color: #141522;
 }
 
+.help {
+  margin-top: 215px;
+}
+
 /* ********************* */
 /***** Hero section ******/
 /* ********************* */
@@ -123,75 +127,36 @@ body {
 }
 
 .hero-bell {
-  padding-left: 360px;
+  margin-left: auto;
+  padding-right: 20px;
 }
 
 .bell-icon {
   width: 17px;
   height: 17px;
   border-radius: 50%;
-  border: 1.4px solid #f1f3f5;
+  border: 1.8px solid #f1f3f5;
   padding: 14px;
   cursor: pointer;
 }
 
 .task-activity {
   display: grid;
-  grid-template-columns: 230px 1fr;
+  grid-template-columns: 194px 462px 462px;
+  gap: 30px;
   padding-bottom: 27px;
-}
-
-.task {
-  width: 200px;
-  height: 217px;
-  background-color: #000000;
-  color: #fff;
-  border-radius: 10px;
-  padding-top: 27px;
-  padding-left: 24px;
-}
-
-.task-text {
-  padding-bottom: 10px;
-}
-
-.num {
-  font-size: 33px;
-  font-family: system-ui;
-}
-
-.activity {
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #f1f3f5;
-}
-
-.activity-space {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.activity-text {
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.select {
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
 }
 
 .monthly {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 6px;
   column-gap: 30px;
 }
 
 .icon {
   margin-left: auto;
+  grid-column: 3;
 }
 
 .mon-icon {
@@ -205,7 +170,8 @@ body {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 20px;
+  grid-row: 2;
 }
 
 .customer {
@@ -291,8 +257,8 @@ body {
 } */
 
 .app-img {
-  width: 290px;
-  height: 102px;
+  width: 345px;
+  height: 123px;
   border-radius: 10px;
 }
 
@@ -312,7 +278,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 120px;
-  margin-bottom: 20px;
 }
 
 .task-cust-name-3 {
@@ -330,7 +295,7 @@ body {
 
 .the-day {
   display: grid;
-  grid-template-columns: 1fr 196px 1fr;
+  grid-template-columns: 1fr 250px 1fr;
   align-items: center;
 }
 
@@ -377,18 +342,18 @@ body {
 
 .task-month {
   display: flex;
-  gap: 79px;
+  gap: 117px;
   padding-top: 5px;
 }
 
 .month {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: bold;
 }
 
 .week-link {
   display: flex;
-  gap: 16px;
+  gap: 21px;
   margin-top: 30px;
   align-items: center;
   justify-content: center;
@@ -414,7 +379,7 @@ body {
 .page-link {
   text-decoration: none;
   color: #000;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .page-link:hover,
@@ -436,7 +401,7 @@ body {
 
 .task-head {
   display: flex;
-  gap: 167px;
+  gap: 238px;
 }
 
 .dot-icon {
@@ -444,15 +409,15 @@ body {
 }
 
 .mobile-img {
-  width: 258px;
-  height: 110px;
+  width: 337px;
+  height: 136px;
   border-radius: 10px;
   margin-top: 20px;
 }
 
 .the-day-today {
   display: grid;
-  grid-template-columns: 1fr 165px 1fr;
+  grid-template-columns: 1fr 240px 1fr;
   align-items: center;
   border-bottom: 1.4px solid #f1f3f5;
   padding-bottom: 35px;
@@ -460,7 +425,7 @@ body {
 
 .d-task {
   display: flex;
-  gap: 98px;
+  gap: 175px;
   align-items: center;
   justify-content: center;
   padding-top: 35px;
@@ -479,16 +444,16 @@ body {
 
 .d-task-1 {
   display: flex;
-  gap: 8px;
+  gap: 16px;
 }
 
 .number {
   display: flex;
   align-items: center;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   border-radius: 8px;
-  padding: 7px 12px 7px 12px;
+  padding: 10px 14px;
   background-color: #f1f3f5;
 }
 
@@ -497,16 +462,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .go-detail {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 45px;
 }
 
 .btn {
-  font-size: 12px;
+  font-size: 14px;
   border: none;
   border-radius: 6px;
   cursor: pointer;
