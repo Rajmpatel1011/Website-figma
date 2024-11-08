@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=sans-serif:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="mentorstyle.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">
+        <img
+          class="book-icon"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEynaloAaVXwQotJhcNbrYYiiUO5b0HeUFbN4i_WxfWIRXKAc_1W0kVt6VCvgOX85EHmk&usqp=CAU"
+        />
+        <h3 class="logo-text">Nuegas</h3>
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li class="main-nav-link">
+            <ion-icon class="nav-icon" name="grid-outline"></ion-icon>
+            <a class="link" href="#">Overview</a>
+          </li>
+          <li class="main-nav-link">
+            <ion-icon class="nav-icon" name="book-outline"></ion-icon>
+            <a class="link" href="#">Task</a>
+          </li>
+          <li class="main-nav-link main-nav-current">
+            <ion-icon
+              class="nav-icon nav-current"
+              name="cube-outline"
+            ></ion-icon>
+            <a class="link nav-current" href="#">Mentors</a>
+          </li>
+          <li class="main-nav-link">
+            <ion-icon
+              class="nav-icon"
+              name="chatbox-ellipses-outline"
+            ></ion-icon>
+            <a class="link" href="#">Message</a>
+          </li>
+          <li class="main-nav-link">
+            <ion-icon class="nav-icon" name="settings-outline"></ion-icon>
+            <a class="link" href="#">Settings</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="section-search">
+      <div class="task-search">
+        <div class="task-text">
+          <h3 class="heading-primary">Explore Task</h3>
+        </div>
+        <div class="hero-bell">
+          <ion-icon class="bell-icon" name="notifications-outline"></ion-icon>
+        </div>
+        <div class="cust-img">
+          <img src="img/customer-1.jpg" alt="Customer photo" />
+        </div>
+      </div>
+
+      <div class="search-bar">
+        <div class="search">
+          <input placeholder="Search Task" class="search-input" />
+          <div class="search-icon">
+            <ion-icon name="search-outline"></ion-icon>
+          </div>
+        </div>
+        <button class="cate-btn">
+          <ion-icon class="cate-icon" name="grid-outline"></ion-icon>
+          <p class="cate-text">Category</p>
+        </button>
+        <button class="deadline-btn">
+          <ion-icon class="deadline-icon" name="filter-outline"></ion-icon>
+          <p class="deadline-text">Short By : Deadline</p>
+        </button>
+      </div>
+    </section>
+
+    <section class="section-hero">
+      <div class="hero">
+        <div class="hero-title">
+          <h3 class="hero-text">Recent Mentors</h3>
+          <ion-icon class="line-icon" name="code-outline"></ion-icon>
+        </div>
+      </div>
+
+      <div class="recent-mentors">
+        <div class="container">
+          <div class="customer">
+            <img
+              class="cust-img"
+              src="img/customer-3.jpg"
+              alt="Customer photo"
+            />
+            <div class="cust-name">
+              <p class="cust-name-1">Jessica Jane</p>
+              <p class="cust-name-2">3D Design</p>
+            </div>
+            <p class="follo" href="#">Followed</p>
+          </div>
+          <div class="review">
+            <img
+              class="copy-icon"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_NvsphDbH4L8e_RZbT-J_rP5DuywHidq-Lke3bDwOPOLOU7wxPDcUqSDrun7SCl5CsE4&usqp=CAU"
+            />
+            <span class="task-mum">40 Task</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="star-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+              />
+            </svg>
+            <span class="review-num">4,7 (750 Reviews)</span>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="customer">
+            <img
+              class="cust-img"
+              src="img/customer-5.jpg"
+              alt="Customer photo"
+            />
+            <div class="cust-name">
+              <p class="cust-name-1">Abraham Lincoln</p>
+              <p class="cust-name-2">Web Developer</p>
+            </div>
+            <p class="follo" href="#">Followed</p>
+          </div>
+          <div class="review">
+            <img
+              class="copy-icon"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_NvsphDbH4L8e_RZbT-J_rP5DuywHidq-Lke3bDwOPOLOU7wxPDcUqSDrun7SCl5CsE4&usqp=CAU"
+            />
+            <span class="task-mum">32 Task</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="star-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+              />
+            </svg>
+            <span class="review-num">4,9 (510 Reviews)</span>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="customer">
+            <img
+              class="cust-img"
+              src="img/customer-2.jpg"
+              alt="Customer photo"
+            />
+            <div class="cust-name">
+              <p class="cust-name-1">Curious George</p>
+              <p class="cust-name-2">UI UX Design</p>
+            </div>
+            <a class="follo-btn" href="#">+Follow</a>
+          </div>
+          <div class="review">
+            <img
+              class="copy-icon"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_NvsphDbH4L8e_RZbT-J_rP5DuywHidq-Lke3bDwOPOLOU7wxPDcUqSDrun7SCl5CsE4&usqp=CAU"
+            />
+            <span class="task-mum">40 Task</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="star-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+              />
+            </svg>
+            <span class="review-num">4,7 (750 Reviews)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero">
+        <div class="hero-titl">
+          <h3 class="hero-text">Mentors</h3>
+        </div>
+      </div>
+
+      <div class="mentor">
+        <div class="container-mentor">
+          <div class="customer">
+            <img
+              class="cust-img"
+              src="img/customer-3.jpg"
+              alt="Customer photo"
+            />
+            <div class="cust-name">
+              <p class="cust-name-1">Jessica Jane</p>
+              <p class="cust-name-2">3D Design</p>
+            </div>
+            <p class="follo" href="#">Followed</p>
+          </div>
+          <div class="cust-text">
+            <p>
+              Hi, I'm Jessica Jane. I am a doctoral student at Harvard
+              University majoring in Web ...
+            </p>
+          </div>
+          <div class="review">
+            <img
+              class="copy-icon"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_NvsphDbH4L8e_RZbT-J_rP5DuywHidq-Lke3bDwOPOLOU7wxPDcUqSDrun7SCl5CsE4&usqp=CAU"
+            />
+            <span class="task-mum">40 Task</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="star-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+              />
+            </svg>
+            <span class="review-num">4,7 (750 Reviews)</span>
+          </div>
+        </div>
+
+        <div class="container-mentor">
+          <div class="customer">
+            <img
+              class="cust-img"
+              src="img/customer-6.jpg"
+              alt="Customer photo"
+            />
+            <div class="cust-name">
+              <p class="cust-name-1">Alex Stanton</p>
+              <p class="cust-name-2">Web Developer</p>
+            </div>
+            <p class="follo" href="#">Followed</p>
+          </div>
+          <div class="cust-text">
+            <p>
+              Hi, I'm Alex Stanton. I am a doctoral student at Oxford University
+              majoring in UI/UX ...
+            </p>
+          </div>
+          <div class="review">
+            <img
+              class="copy-icon"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_NvsphDbH4L8e_RZbT-J_rP5DuywHidq-Lke3bDwOPOLOU7wxPDcUqSDrun7SCl5CsE4&usqp=CAU"
+            />
+            <span class="task-mum">60 Task</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="star-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+              />
+            </svg>
+            <span class="review-num">4,9 (970 Reviews)</span>
+          </div>
+        </div>
+
+        <div class="container-mentor">
+          <div class="customer">
+            <img
+              class="cust-img"
+              src="img/customer-1.jpg"
+              alt="Customer photo"
+            />
+            <div class="cust-name">
+              <p class="cust-name-1">Skylar Disc</p>
+              <p class="cust-name-2">UI UX Design</p>
+            </div>
+            <a class="follo-btn" href="#">+Follow</a>
+          </div>
+          <div class="cust-text">
+            <p>
+              Hi, I'm Skylar Disc. I'm an Android Developer at Google company
+              ...
+            </p>
+          </div>
+          <div class="review">
+            <img
+              class="copy-icon"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_NvsphDbH4L8e_RZbT-J_rP5DuywHidq-Lke3bDwOPOLOU7wxPDcUqSDrun7SCl5CsE4&usqp=CAU"
+            />
+            <span class="task-mum">65 Task</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="star-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+              />
+            </svg>
+            <span class="review-num">4,7 (750 Reviews)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="mentor-2nd-row">
+        <div class="container-mentor">
+          <div class="customer">
+            <img
+              class="cust-img"
+              src="img/customer-3.jpg"
+              alt="Customer photo"
+            />
+            <div class="cust-name">
+              <p class="cust-name-1">Jessica Jane</p>
+              <p class="cust-name-2">3D Design</p>
+            </div>
+            <p class="follo" href="#">Followed</p>
+          </div>
+          <div class="cust-text">
+            <p>
+              Hi, I'm Jessica Jane. I am a doctoral student at Harvard
+              University majoring in Web ...
+            </p>
+          </div>
+          <div class="review">
+            <img
+              class="copy-icon"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_NvsphDbH4L8e_RZbT-J_rP5DuywHidq-Lke3bDwOPOLOU7wxPDcUqSDrun7SCl5CsE4&usqp=CAU"
+            />
+            <span class="task-mum">40 Task</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="star-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+              />
+            </svg>
+            <span class="review-num">4,7 (750 Reviews)</span>
+          </div>
+        </div>
+
+        <div class="container-mentor">
+          <div class="customer">
+            <img
+              class="cust-img"
+              src="img/customer-2.jpg"
+              alt="Customer photo"
+            />
+            <div class="cust-name">
+              <p class="cust-name-1">Curious George</p>
+              <p class="cust-name-2">UI UX Design</p>
+            </div>
+            <a class="follo-btn" href="#">+Follow</a>
+          </div>
+          <div class="cust-text">
+            <p>
+              Hi, I'm Curious George. I am a doctoral student at Oxford
+              University majoring in UI/UX ...
+            </p>
+          </div>
+          <div class="review">
+            <img
+              class="copy-icon"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_NvsphDbH4L8e_RZbT-J_rP5DuywHidq-Lke3bDwOPOLOU7wxPDcUqSDrun7SCl5CsE4&usqp=CAU"
+            />
+            <span class="task-mum">40 Task</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="star-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+              />
+            </svg>
+            <span class="review-num">4,7 (750 Reviews)</span>
+          </div>
+        </div>
+
+        <div class="container-mentor">
+          <div class="customer">
+            <img
+              class="cust-img"
+              src="img/customer-1.jpg"
+              alt="Customer photo"
+            />
+            <div class="cust-name">
+              <p class="cust-name-1">Skylar Disc</p>
+              <p class="cust-name-2">UI UX Design</p>
+            </div>
+            <a class="follo-btn" href="#">+Follow</a>
+          </div>
+          <div class="cust-text">
+            <p>
+              Hi, I'm Skylar Disc. I'm an Android Developer at Google company
+              ...
+            </p>
+          </div>
+          <div class="review">
+            <img
+              class="copy-icon"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_NvsphDbH4L8e_RZbT-J_rP5DuywHidq-Lke3bDwOPOLOU7wxPDcUqSDrun7SCl5CsE4&usqp=CAU"
+            />
+            <span class="task-mum">65 Task</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="star-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+              />
+            </svg>
+            <span class="review-num">4,7 (750 Reviews)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
