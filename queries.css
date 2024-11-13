@@ -33,6 +33,20 @@
   }
 }
 
+@media (max-width: 1500px) {
+  .svg1 {
+    width: 24%;
+    height: 24%;
+  }
+  .svg2 {
+    width: 59%;
+    height: 59%;
+  }
+  .svg3 {
+    display: none;
+  }
+}
+
 @media (max-width: 1300px) {
   .svg1 {
     width: 31%;
@@ -45,6 +59,10 @@
 
   body {
     grid-template-columns: 225px 1fr 330px;
+  }
+
+  .page-link {
+    font-size: 12px;
   }
 
   .task-month {
@@ -61,10 +79,6 @@
 
   .d-task {
     gap: 114px;
-  }
-
-  .page-link {
-    font-size: 12px;
   }
 }
 
@@ -93,10 +107,6 @@
     gap: 62px;
   }
 
-  .page-link {
-    font-size: 12px;
-  }
-
   .text {
     font-size: 13px;
   }
@@ -106,7 +116,7 @@
   }
 }
 
-@media (max-width: 1130px) {
+@media (max-widt: 1130px) {
   body {
     grid-template-columns: 206px 1fr 289px;
   }
@@ -131,10 +141,6 @@
     gap: 45px;
   }
 
-  .page-link {
-    font-size: 12px;
-  }
-
   .text {
     font-size: 13px;
   }
@@ -150,6 +156,50 @@
   }
 
   body {
-    grid-template-columns: 1fr 357px;
+    grid-template-columns: 775px 335px;
   }
+
+  .heading-primary {
+    font-size: 22px;
+  }
+
+  .head-text {
+    font-size: 15px;
+  }
+
+  .svg1 {
+    width: 23%;
+    height: 23%;
+  }
+  .svg2 {
+    width: 57%;
+    height: 57%;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .task-month {
+    gap: 77px;
+  }
+
+  .week-link {
+    gap: 14px;
+  }
+
+  .task-head {
+    gap: 157px;
+  }
+
+  .d-task {
+    gap: 91px;
+  }
+
+  .btn {
+    padding: 8px 75px;
+  }
+
+  /* MOBILE NAVIGATION */
 }
