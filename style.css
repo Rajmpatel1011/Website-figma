@@ -115,11 +115,34 @@ body {
   margin-bottom: 25px;
 }
 
+.btn-mobile-nav {
+  display: flex;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding-right: 35px;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  border: 1.8px solid #f1f3f5;
+  padding: 14px;
+  cursor: pointer;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 .heading-primary {
   padding-bottom: 10px;
 }
 
-.cust-img img {
+.cust-imag img {
   height: 49px;
   width: 49px;
   border-radius: 50%;
@@ -135,7 +158,7 @@ body {
   width: 17px;
   height: 17px;
   border-radius: 50%;
-  border: 1.8px solid #f1f3f5;
+  border: 1.9px solid #f1f3f5;
   padding: 14px;
   cursor: pointer;
 }
@@ -146,6 +169,21 @@ body {
   justify-content: space-evenly;
   padding-bottom: 27px;
   gap: 27px;
+}
+
+.svg1 {
+  width: 16%;
+  height: 16%;
+}
+
+.svg2 {
+  width: 38%;
+  height: 38%;
+}
+
+.svg3 {
+  width: 38%;
+  height: 38%;
 }
 
 /* .monthly {
