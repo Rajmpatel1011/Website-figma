@@ -94,7 +94,7 @@ body {
 }
 
 .help {
-  margin-top: 215px;
+  margin-top: 208px;
 }
 
 /* ********************* */
@@ -334,7 +334,7 @@ body {
 .Progress {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 120px;
+  /* gap: 120px; */
 }
 
 .task-cust-name-3 {
@@ -401,6 +401,8 @@ body {
 
 .task-month {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 117px;
   padding-top: 5px;
 }
@@ -460,6 +462,8 @@ body {
 
 .task-head {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 238px;
 }
 
