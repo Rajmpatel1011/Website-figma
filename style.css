@@ -132,12 +132,12 @@ body {
   margin-top: 208px;
 }
 
-/* ********************* */
-/***** Hero section ******/
-/* ********************* */
+/* ********************** */
+/* **** Hero section **** */
+/* ********************** */
 
 .section-hero {
-  padding: 22px;
+  padding: 22px 22px 55px 22px;
   background-color: #f8f9fa;
   border-left: 1px solid #f1f3f5;
   border-right: 1px solid #f1f3f5;
@@ -147,7 +147,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* margin-bottom: 25px; */
+  margin-bottom: 25px;
 }
 
 .heading-primary {
@@ -346,19 +346,18 @@ body {
 .Progress {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-top: 16px;
   /* gap: 120px; */
 }
 
 .task-cust-name-3 {
   font-size: 14px;
-  padding-top: 16px;
   color: #070707;
 }
 
 .task-cust-name-4 {
   margin-left: auto;
   font-size: 14px;
-  padding-top: 16px;
   color: #4c6ef5;
 }
 
