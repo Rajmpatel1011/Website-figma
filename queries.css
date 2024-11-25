@@ -338,6 +338,10 @@
     display: flex;
   }
 
+  .hero {
+    margin-bottom: 0;
+  }
+
   .logo {
     display: none;
   }
@@ -394,7 +398,7 @@
 
   /* MOBILE NAVIGATION */
   .main-nav {
-    display: flex;
+    /* display: flex; */
   }
 
   .main-nav-mobile {
