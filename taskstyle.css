@@ -4,10 +4,15 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: sans-serif;
   display: grid;
-  grid-template-columns: 174px 1fr;
+  grid-template-columns: 225px 1fr;
+  overflow-x: hidden;
 }
 
 /* ********************* */
@@ -29,19 +34,45 @@ body {
 }
 
 .book-icon {
-  height: 40px;
-  width: 40px;
+  height: 44px;
+  width: 44px;
   padding: 2px;
 }
 
 .logo-text {
   font-family: sans-serif;
-  font-size: 22px;
+  font-size: 25px;
   color: #141522;
 }
 
 .main-nav {
-  margin-left: 7px;
+  margin-left: 30px;
+}
+
+.hero {
+  position: relative;
+}
+
+.btn-mobile-nav {
+  display: flex;
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  border: 1.8px solid #f1f3f5;
+  padding: 14px;
+  cursor: pointer;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 .main-nav-list {
@@ -55,8 +86,9 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 7px 9px 7px 9px;
+  padding: 7px 9px;
   cursor: pointer;
+  width: 122px;
 }
 
 .main-nav-link:hover,
@@ -93,9 +125,13 @@ body {
   color: #141522;
 }
 
-/* ********************* */
-/* Search section */
-/* ********************* */
+.help {
+  margin-top: 170px;
+}
+
+/* ********************** */
+/* *** Search section *** */
+/* ********************** */
 
 .section-search {
   padding: 22px;
@@ -109,9 +145,6 @@ body {
 
 .task-text {
   width: 100%;
-}
-
-.heading-primary {
 }
 
 .cust-img img {
@@ -135,23 +168,21 @@ body {
 }
 
 .search-bar {
-  display: grid;
-  grid-template-columns: 1fr 144px 173px;
+  display: flex;
   align-items: center;
-  justify-content: center;
   margin-top: 15px;
 }
 
 .search {
   display: flex;
   justify-content: space-evenly;
-  width: 400px;
+  width: 470px;
 }
 
 .search-input {
   width: 100%;
-  height: 42px;
-  font-size: 11px;
+  height: 45px;
+  font-size: 12px;
   border: 1.4px solid #f1f3f5;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -161,7 +192,8 @@ body {
 
 .search-icon {
   width: 50px;
-  height: 42px;
+  height: 45px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,12 +210,14 @@ body {
   align-items: center;
   justify-content: center;
   gap: 13px;
+  margin-left: auto;
+  margin-right: 20px;
   background-color: transparent;
   border: 1.4px solid #f1f3f5;
   border-radius: 8px;
   cursor: pointer;
   width: 125px;
-  height: 42px;
+  height: 45px;
 }
 
 .cate-icon {
@@ -206,7 +240,7 @@ body {
   border-radius: 8px;
   cursor: pointer;
   width: 170px;
-  height: 42px;
+  height: 45px;
 }
 
 .deadline-icon {
@@ -225,11 +259,16 @@ body {
 
 .section-hero {
   background-color: #f8f9fa;
-  padding-bottom: 22px;
+  padding: 22px 22px 40px 22px;
 }
 
-.hero {
-  padding: 27px 27px 10px 27px;
+.hero-limit {
+  margin-bottom: 10px;
+}
+
+.hero-new {
+  margin-top: 22px;
+  margin-bottom: 10px;
 }
 
 .hero-title {
@@ -239,6 +278,7 @@ body {
 }
 
 .hero-text {
+  font-size: 22px;
 }
 
 .line-icon {
@@ -249,20 +289,31 @@ body {
 
 /* ================== */
 
-.container {
+.m-container {
+  display: flex;
+  gap: 20px;
+}
+
+.container1 {
+  /* margin-left: 20px; */
+}
+
+.container1,
+.container2,
+.container3,
+.container4 {
   background-color: #fff;
   border-radius: 10px;
   padding: 20px;
-  margin-left: 20px;
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  width: 325px;
+  gap: 11px;
+  /* width: 100%; */
 }
 
 .app-img {
-  width: 290px;
-  height: 102px;
+  width: 100%;
+  /* height: 102px; */
   border-radius: 10px;
 }
 
@@ -281,26 +332,24 @@ body {
 .Progress {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 120px;
-  margin-bottom: 20px;
+  margin-top: 16px;
+  /* gap: 120px; */
+  /* margin-bottom: 20px; */
 }
 
 .task-cust-name-3 {
   font-size: 14px;
-  padding-top: 16px;
   color: #070707;
 }
 
 .task-cust-name-4 {
   margin-left: auto;
   font-size: 14px;
-  padding-top: 16px;
   color: #4c6ef5;
 }
 
 .the-day {
-  display: grid;
-  grid-template-columns: 1fr 196px 1fr;
+  display: flex;
   align-items: center;
 }
 
@@ -311,11 +360,13 @@ body {
 
 .day {
   font-size: 14px;
+  padding-left: 6px;
   color: #070707;
 }
 
 .delivered-imgs {
   display: flex;
+  margin-left: auto;
 }
 
 .delivered-imgs img {
@@ -328,8 +379,4 @@ body {
 
 .delivered-imgs img:last-child {
   margin: 0;
-}
-
-.flex {
-  display: flex;
 }
