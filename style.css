@@ -129,7 +129,7 @@ body {
 }
 
 .help {
-  margin-top: 208px;
+  margin-top: 170px;
 }
 
 /* ********************** */
@@ -403,7 +403,8 @@ body {
   background-color: #f1f3f5;
 }
 
-.task-today-container {
+.task-today-container1,
+.task-today-container2 {
   background-color: #fff;
   border-radius: 10px;
   margin: 20px;
