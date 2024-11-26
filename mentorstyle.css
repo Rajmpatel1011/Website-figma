@@ -116,7 +116,7 @@ body {
   width: 100%;
 }
 
-.cust-img img {
+.cust-imag img {
   height: 49px;
   width: 49px;
   border-radius: 50%;
@@ -228,11 +228,11 @@ body {
 
 .section-hero {
   background-color: #f8f9fa;
-  padding-bottom: 22px;
+  padding: 22px 22px 40px 22px;
 }
 
-.hero {
-  padding: 27px 27px 10px 27px;
+.hero-recent {
+  margin-bottom: 10px;
 }
 
 .hero-title {
@@ -242,6 +242,7 @@ body {
 }
 
 .hero-text {
+  font-size: 22px;
 }
 
 .line-icon {
@@ -250,29 +251,24 @@ body {
   height: 25px;
 }
 
-.recent-mentors {
+/* ================== */
+
+.m-container {
   display: flex;
   gap: 20px;
-  margin-left: 20px;
 }
 
-.icon {
-  margin-left: auto;
-}
-
-.mon-icon {
-  width: 30px;
-  height: 30px;
-}
-
-.container {
+.container1,
+.container2,
+.container3,
+.container4 {
   background-color: #fff;
   border-radius: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  width: 310px;
+  gap: 30px;
+  width: 100%;
 }
 
 .customer {
@@ -299,6 +295,7 @@ body {
 
 .cust-name-2 {
   font-size: 11px;
+  color: #54577a;
 }
 
 .follo-btn {
@@ -337,26 +334,29 @@ body {
   padding-right: 9px;
   padding-bottom: 3px;
   color: orange;
+  cursor: pointer;
 }
 
 .review-num {
   font-size: 13px;
 }
 
-.mentor {
-  display: inline-flex;
-  gap: 20px;
-  margin-left: 20px;
+.hero-mentors {
+  margin-top: 22px;
+  margin-bottom: 10px;
 }
 
-.container-mentor {
+.container-mentor1,
+.container-mentor2,
+.container-mentor3,
+.container-mentor4 {
   background-color: #fff;
   border-radius: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 5px;
-  width: 337px;
+  width: 100%;
 }
 
 .cust-text {
@@ -364,10 +364,11 @@ body {
   line-height: 2;
   margin-top: 15px;
   margin-bottom: 15px;
+  color: #8e92bc;
 }
+
 .mentor-2nd-row {
-  display: inline-flex;
+  display: flex;
   gap: 20px;
-  margin-left: 20px;
   margin-top: 20px;
 }
